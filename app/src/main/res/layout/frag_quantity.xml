@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center">
+
+    <TextView
+        android:id="@+id/title1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textColor="#000"
+        android:textSize="36sp"
+        android:textStyle="bold"
+        android:text="Sales Report"
+        />
+
+    <LinearLayout
+        android:id="@+id/linlay1"
+        android:layout_width="match_parent"
+        android:layout_below="@id/title1"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/table_head"
+            android:padding="10dp">
+
+            <TableRow>
+
+                <TextView
+
+                    android:ems="2"
+                    android:text="Id"
+                    android:textColor="#000"
+                    android:textSize="20sp"/>
+                <TextView
+                    android:ems="7"
+                    android:text="Item"
+                    android:textColor="#000"
+                    android:textSize="20sp"
+
+                    />
+
+                <TextView
+
+                    android:text="Quantity"
+                    android:ems="4"
+                    android:textColor="#000"
+                    android:textSize="20sp"
+
+                    />
+                <TextView
+
+                    android:text="Price"
+                    android:textColor="#000"
+                    android:textSize="20sp"
+
+                    />
+
+
+
+            </TableRow>
+        </TableLayout>
+
+
+        <ListView
+            android:id="@+id/list1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:divider="@drawable/divider"
+            android:dividerHeight="1dp"></ListView>
+    </LinearLayout>
+
+</RelativeLayout>

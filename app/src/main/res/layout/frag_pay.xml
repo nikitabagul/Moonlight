@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textColor="#000"
+        android:textSize="33sp"
+        android:textStyle="bold"
+        android:text="Unpaid Orders"
+        />
+
+    <LinearLayout
+        android:id="@+id/linlay1"
+        android:layout_width="match_parent"
+        android:layout_below="@id/title"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/table_head"
+            android:padding="10dp">
+
+            <TableRow>
+
+                <TextView
+
+                    android:ems="14"
+                    android:text="  Id"
+                    android:textColor="#000"
+                    android:textSize="20sp" />
+
+
+                <TextView
+
+                    android:text="Price"
+                    android:textColor="#000"
+                    android:textSize="20sp" />
+
+            </TableRow>
+        </TableLayout>
+
+        <ListView
+            android:id="@+id/list7"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:divider="@drawable/divider"
+            android:dividerHeight="1dp"></ListView>
+    </LinearLayout>
+
+</RelativeLayout>

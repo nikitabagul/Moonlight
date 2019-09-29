@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <ScrollView
+        android:id="@+id/scview"
+        android:layout_width="match_parent"
+        android:layout_height="277dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="-241dp">
+
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="20dp">
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center">
+
+
+                <Button
+                    android:id="@+id/b1"
+                    android:layout_width="95dp"
+                    android:layout_height="match_parent"
+                    android:layout_column="1"
+                    android:text="Burger                     [35]" />
+
+                <Button
+                    android:id="@+id/b2"
+                    android:layout_width="162dp"
+                    android:layout_height="40dp"
+                    android:layout_column="2"
+                    android:text="Sandwich             [40]" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center">
+
+                <Button
+                    android:id="@+id/b3"
+                    android:layout_width="181dp"
+                    android:layout_height="match_parent"
+                    android:layout_column="1"
+                    android:text="HotCoffee              [35]" />
+
+
+                <Button
+                    android:id="@+id/b4"
+                    android:layout_width="171dp"
+                    android:layout_height="40dp"
+                    android:layout_column="2"
+                    android:text="Maggi                     [35]" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center">
+
+                <Button
+                    android:id="@+id/b5"
+                    android:layout_width="100dp"
+                    android:layout_height="40dp"
+                    android:layout_column="1"
+                    android:text="Nuggets                  [60]" />
+
+                <Button
+                    android:id="@+id/b6"
+                    android:layout_width="100dp"
+                    android:layout_height="40dp"
+                    android:layout_column="1"
+                    android:text="Whitecoffee        [40]" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center">
+
+
+                <Button
+                    android:id="@+id/b7"
+                    android:layout_width="100dp"
+                    android:layout_height="40dp"
+                    android:layout_column="1"
+                    android:text="Thick Coffee          [25]" />
+
+                <Button
+                    android:id="@+id/b8"
+                    android:layout_width="100dp"
+                    android:layout_height="40dp"
+                    android:layout_column="2"
+                    android:text="Nachos                 [65]" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center">
+
+
+                <Button
+                    android:id="@+id/b9"
+                    android:layout_width="100dp"
+                    android:layout_height="40dp"
+                    android:layout_column="1"
+                    android:text="Choco.Sandwich  [45]" />
+
+                <Button
+                    android:id="@+id/b10"
+                    android:layout_width="100dp"
+                    android:layout_height="40dp"
+                    android:layout_column="2"
+                    android:text="Fries                       [40]" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center">
+
+
+                <Button
+                    android:id="@+id/b11"
+                    android:layout_width="100dp"
+                    android:layout_height="40dp"
+                    android:layout_column="1"
+                    android:text="Pizza                      [120]" />
+
+                <Button
+                    android:id="@+id/b12"
+                    android:layout_width="100dp"
+                    android:layout_height="40dp"
+                    android:layout_column="2"
+                    android:text="Rice                         [15]" />
+            </TableRow>
+        </TableLayout>
+
+
+    </ScrollView>
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/layout1"
+        android:layout_alignStart="@+id/layout1"
+        android:layout_marginStart="1dp"
+        android:layout_marginBottom="5dp"
+        android:gravity="center"
+        android:padding="10dp">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_above="@+id/scview"
+            android:layout_alignStart="@+id/layout1">
+
+            <Button
+                android:id="@+id/fi2"
+                android:layout_width="377dp"
+                android:layout_height="40dp"
+                android:layout_column="1"
+                android:gravity="center_horizontal|center"
+                android:text="Done" />
+        </TableRow>
+    </TableLayout>
+
+    <LinearLayout
+        android:id="@+id/layout1"
+        android:layout_width="match_parent"
+        android:layout_height="362dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginBottom="7dp"
+        android:orientation="vertical">
+
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/layout1"
+            android:background="@drawable/table_head"
+            android:padding="10dp">
+
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center">
+
+                <TextView
+
+                    android:ems="2"
+                    android:text="SR"
+                    android:textColor="#000"
+                    android:textSize="20sp"/>
+
+                <TextView
+                    android:ems="8"
+                    android:text="Item"
+                    android:textColor="#000"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:ems="4"
+                    android:text="Quantity"
+                    android:textColor="#000"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:ems="2"
+                    android:text="Price"
+                    android:textColor="#000"
+                    android:textSize="20sp" />
+            </TableRow>
+        </TableLayout>
+
+        <ListView
+            android:id="@+id/list3"
+            android:layout_width="match_parent"
+            android:layout_height="430dp"
+            android:divider="@drawable/divider"
+            android:dividerHeight="1dp"
+            ></ListView>
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    android:gravity="center">
+
+    <TableLayout
+        android:id="@+id/mod_form"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+
+    <TableRow>
+
+        <TextView
+            android:text="Quantity : "
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/modField1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Enter Quanity"
+            android:ems="10"
+            android:layout_marginLeft="50dp"
+            android:inputType="number"
+            android:imeOptions="actionNext"
+            />
+    </TableRow>
+    </TableLayout>
+</LinearLayout>
