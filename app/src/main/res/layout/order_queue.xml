@@ -2,7 +2,9 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical" android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:padding="10dp">
+    android:paddingBottom="7dp"
+    android:paddingTop="7dp"
+    >
 
 
     <TableLayout
@@ -10,12 +12,13 @@
         android:layout_height="wrap_content"
         >
 
-        <TableRow>
+        <TableRow android:layout_width="399dp"
+            android:layout_height="270dp">
 
             <TextView
 
                 android:id="@+id/rec_f0"
-                android:layout_width="wrap_content"
+                android:layout_width="58dp"
                 android:ems="2"
                 android:text="SR"
                 android:textColor="#000"
@@ -23,8 +26,8 @@
 
             <TextView
                 android:id="@+id/rec_f1"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_width="254dp"
+                android:layout_height="match_parent"
                 android:ems="8"
                 android:text="Item"
                 android:textColor="#000"
@@ -32,17 +35,17 @@
 
             <TextView
                 android:id="@+id/rec_f2"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_width="35dp"
+                android:layout_height="match_parent"
                 android:ems="4"
-                android:text="Quantity"
+                android:text="Qua"
                 android:textColor="#000"
                 android:textSize="20sp" />
 
             <TextView
                 android:id="@+id/rec_f3"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_width="65dp"
+                android:layout_height="match_parent"
                 android:text="Price"
                 android:textColor="#000"
                 android:textSize="20sp" />

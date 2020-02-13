@@ -36,22 +36,23 @@
                     android:text="Id"
                     android:textColor="#000"
                     android:textSize="20sp"/>
+
                 <TextView
-                    android:ems="7"
+                    android:layout_width="195dp"
+                    android:ems="5"
                     android:text="Item"
                     android:textColor="#000"
-                    android:textSize="20sp"
 
-                    />
+                    android:textSize="20sp" />
 
                 <TextView
 
-                    android:text="Quantity"
+                    android:layout_width="wrap_content"
                     android:ems="4"
+                    android:text="Quantity"
                     android:textColor="#000"
-                    android:textSize="20sp"
 
-                    />
+                    android:textSize="20sp" />
                 <TextView
 
                     android:text="Price"
@@ -69,7 +70,7 @@
         <ListView
             android:id="@+id/list1"
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
+            android:layout_height="557dp"
             android:divider="@drawable/divider"
             android:dividerHeight="1dp"></ListView>
     </LinearLayout>

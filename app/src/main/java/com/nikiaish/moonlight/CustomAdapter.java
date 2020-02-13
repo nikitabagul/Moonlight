@@ -117,12 +117,12 @@ public class CustomAdapter extends ArrayAdapter<Record> {
                             if(ww!=0) {
                                  dd = ee / ww;
 
-
                             }
                             int pp = dd * ww;
                             temp.execSQL("DELETE FROM storee WHERE id=" + it_id + " and name=\"" + i_name + "\"");
 
                             adapterM.clear();
+                            populateList(adapterM,0);
 
                             Cursor uu=temp.rawQuery("SELECT * FROM store1 WHERE name=\"" + i_name+"\"", null);
                             if (!uu.moveToFirst()) return;
@@ -171,13 +171,6 @@ public class CustomAdapter extends ArrayAdapter<Record> {
                         if (!i.moveToFirst()) return;
                         db.execSQL("INSERT INTO store VALUES('" + i.getString(0) + "','" + i.getString(1) +
                                 "','" + i.getString(2) + "','" + i.getString(3) + "');");
-
-
-
-                       /*while (i.moveToNext()) {
-                            db.execSQL("INSERT INTO store VALUES('" + i.getString(0) + "','" + i.getString(1) +
-                                    "','" + i.getString(2) + "','" + i.getString(3) + "');");
-                        }*/
 
                         adapterM.clear();
                         temp.execSQL("DELETE FROM storee WHERE id=" + it_id + " and name=\"" + i_name+"\"");
@@ -315,7 +308,7 @@ public class CustomAdapter extends ArrayAdapter<Record> {
                                         temp.execSQL("UPDATE storee SET price=" + s + " WHERE id=" + it_id + " and name=\"" + i_name + "\"");
                                     } else
                                         temp.execSQL("UPDATE store1 SET id=" + et1.getText() + "' WHERE id=" + it_id + "and name=" + i_name);
-                                    Toast.makeText(getContext(), "Record  modified", Toast.LENGTH_SHORT).show();
+                                    Toast.makeText(getContext(), "Order Changed", Toast.LENGTH_SHORT).show();
                                 }
                                 else
                                 {
@@ -367,11 +360,17 @@ public class CustomAdapter extends ArrayAdapter<Record> {
                     public void onClick(View view) {
 
 
-                        adapterP.clear();
-                        temp.execSQL("DELETE FROM store2 WHERE id=" + it_id);
-                        populateList(adapterP, 3);
+                        Cursor gh=temp.rawQuery("SELECT * FROM storee WHERE id=\"" + it_id + "\"", null);
+                        if(gh.getCount()==0) {
+                            adapterP.clear();
+                            temp.execSQL("DELETE FROM store2 WHERE id=" + it_id);
+                            populateList(adapterP, 3);
 
-
+                        }
+                        else
+                        {
+                            Toast.makeText(getContext(), "Order Is Not Served Completely", Toast.LENGTH_SHORT).show();
+                        }
                         }
 
                 });

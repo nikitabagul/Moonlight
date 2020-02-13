@@ -18,6 +18,20 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:padding="20dp">
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center">
+                <TextView
+                    android:id="@+id/t1"
+                    android:layout_column="1"
+                    android:text="  Burgers"
+                    android:textSize="30dp"
+                    android:textStyle="italic"
+                    android:textAllCaps="true"
+                    android:textColor="#000"
+                    />
+            </TableRow>
 
             <TableRow
                 android:layout_width="match_parent"
@@ -27,17 +41,33 @@
 
                 <Button
                     android:id="@+id/b1"
-                    android:layout_width="95dp"
+                    android:layout_width="371dp"
                     android:layout_height="match_parent"
                     android:layout_column="1"
-                    android:text="Burger                     [35]" />
+                    android:background="@color/c1"
+                    android:text="Paneer Veg Cheese Burger    [60]"
+                    android:layout_marginBottom="5dp"
+                    />
+
+
+            </TableRow>
+
+
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center">
 
                 <Button
                     android:id="@+id/b2"
-                    android:layout_width="162dp"
-                    android:layout_height="40dp"
-                    android:layout_column="2"
-                    android:text="Sandwich             [40]" />
+                    android:layout_width="371dp"
+                    android:layout_height="match_parent"
+                    android:layout_column="1"
+                    android:background="@color/c1"
+                    android:text="Plain Veg Burger            [35]"
+                    android:layout_marginBottom="5dp"
+                    />
             </TableRow>
 
             <TableRow
@@ -50,15 +80,28 @@
                     android:layout_width="181dp"
                     android:layout_height="match_parent"
                     android:layout_column="1"
-                    android:text="HotCoffee              [35]" />
+                    android:background="@color/c1"
+                    android:text="Cheese Veg Burger           [50]"
+                    android:layout_marginBottom="5dp"
+                    />
 
+            </TableRow>
+
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center">
 
                 <Button
                     android:id="@+id/b4"
                     android:layout_width="171dp"
-                    android:layout_height="40dp"
-                    android:layout_column="2"
-                    android:text="Maggi                     [35]" />
+                    android:layout_height="match_parent"
+                    android:layout_column="1"
+                    android:background="@color/c1"
+                    android:text="Jain Veg Burger             [35]"
+                    android:layout_marginBottom="5dp"
+                    />
 
             </TableRow>
 
@@ -70,58 +113,289 @@
                 <Button
                     android:id="@+id/b5"
                     android:layout_width="100dp"
-                    android:layout_height="40dp"
+                    android:layout_height="match_parent"
                     android:layout_column="1"
-                    android:text="Nuggets                  [60]" />
+                    android:background="@color/c1"
+                    android:text="Jain Veg Cheese Burger      [50]"
+                    android:layout_marginBottom="5dp"
+                    />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center">
 
                 <Button
                     android:id="@+id/b6"
                     android:layout_width="100dp"
-                    android:layout_height="40dp"
+                    android:layout_height="match_parent"
                     android:layout_column="1"
-                    android:text="Whitecoffee        [40]" />
+                    android:background="@color/c1"
+                    android:text="Jain Paneer Burger          [50]"
+                    android:layout_marginBottom="5dp"
+                    />
+
             </TableRow>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
             <TableRow
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:gravity="center">
+                <TextView
+                    android:id="@+id/t2"
+                    android:layout_column="1"
+                    android:text="  Cold Coffee"
+                    android:textSize="30dp"
+                    android:textStyle="italic"
+                    android:textAllCaps="true"
+                    android:textColor="#000"
+                    android:layout_marginBottom="5dp"
+                    />
+            </TableRow>
 
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center">
 
                 <Button
                     android:id="@+id/b7"
                     android:layout_width="100dp"
-                    android:layout_height="40dp"
+                    android:layout_height="match_parent"
                     android:layout_column="1"
-                    android:text="Thick Coffee          [25]" />
+                    android:layout_marginBottom="5dp"
+                    android:background="@color/c2"
+                    android:text="Thick Cold coffee           [25]" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center">
 
                 <Button
                     android:id="@+id/b8"
                     android:layout_width="100dp"
-                    android:layout_height="40dp"
-                    android:layout_column="2"
-                    android:text="Nachos                 [65]" />
+                    android:layout_height="match_parent"
+                    android:layout_column="1"
+                    android:layout_marginBottom="5dp"
+                    android:background="@color/c2"
+                    android:text="Irish Munch(Thunder)        [70]" />
+
             </TableRow>
+
 
             <TableRow
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:gravity="center">
-
 
                 <Button
                     android:id="@+id/b9"
                     android:layout_width="100dp"
-                    android:layout_height="40dp"
+                    android:layout_height="match_parent"
                     android:layout_column="1"
-                    android:text="Choco.Sandwich  [45]" />
+                    android:layout_marginBottom="5dp"
+                    android:background="@color/c2"
+                    android:text="Irish Munch(Crush)          [60]" />
+            </TableRow>
+
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center">
 
                 <Button
                     android:id="@+id/b10"
                     android:layout_width="100dp"
-                    android:layout_height="40dp"
-                    android:layout_column="2"
-                    android:text="Fries                       [40]" />
+                    android:layout_marginBottom="5dp"
+                    android:layout_height="match_parent"
+                    android:layout_column="1"
+                    android:background="@color/c2"
+                    android:text="Irish Munch                 [50]" />
+            </TableRow>
+
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center">
+
+                <Button
+                    android:id="@+id/b11"
+                    android:layout_marginBottom="5dp"
+                    android:layout_width="100dp"
+                    android:layout_height="match_parent"
+                    android:layout_column="1"
+                    android:background="@color/c2"
+                    android:text="Moka Munch(Thunder)         [60]" />
+            </TableRow>
+
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center">
+
+
+                <Button
+                    android:id="@+id/b12"
+                    android:layout_width="100dp"
+                    android:layout_marginBottom="5dp"
+                    android:layout_height="match_parent"
+                    android:layout_column="1"
+                    android:background="@color/c2"
+                    android:text="Moka Munch(Crush)           [50]" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center">
+
+                <Button
+                    android:id="@+id/b13"
+                    android:layout_marginBottom="5dp"
+                    android:layout_width="100dp"
+                    android:layout_height="match_parent"
+                    android:layout_column="1"
+                    android:background="@color/c2"
+                    android:text="Moka Munch                  [35]" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center">
+
+                <Button
+                    android:id="@+id/b14"
+                    android:layout_width="100dp"
+                    android:layout_height="match_parent"
+                    android:layout_column="1"
+                    android:background="@color/c2"
+                    android:layout_marginBottom="5dp"
+                    android:text="Munch Thunder(Crush)        [60]" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center">
+
+                <Button
+                    android:id="@+id/b15"
+                    android:layout_width="100dp"
+                    android:layout_marginBottom="5dp"
+                    android:layout_height="match_parent"
+                    android:layout_column="1"
+                    android:background="@color/c2"
+                    android:text="Munch With Thunder          [50]" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center">
+
+                <Button
+                    android:id="@+id/b16"
+                    android:layout_width="100dp"
+                    android:layout_marginBottom="5dp"
+                    android:layout_height="match_parent"
+                    android:layout_column="1"
+                    android:background="@color/c2"
+                    android:text="Munch With Crush            [35]" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center">
+
+                <Button
+                    android:id="@+id/b17"
+                    android:layout_width="100dp"
+                    android:layout_marginBottom="5dp"
+                    android:layout_height="match_parent"
+                    android:layout_column="1"
+                    android:background="@color/c2"
+                    android:text="Caramel Munch               [60]" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center">
+
+                <Button
+                    android:id="@+id/b18"
+                    android:layout_width="100dp"
+                    android:layout_height="match_parent"
+                    android:layout_column="1"
+                    android:background="@color/c2"
+                    android:layout_marginBottom="5dp"
+                    android:text="Carribean Munch             [60]" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center">
+
+                <Button
+                    android:id="@+id/b19"
+                    android:layout_width="100dp"
+                    android:layout_height="match_parent"
+                    android:layout_column="1"
+                    android:layout_marginBottom="5dp"
+                    android:background="@color/c2"
+                    android:text="Oreo Munch                  [35]" />
+            </TableRow>
+
+
+
+
+
+
+
+
+
+
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center">
+                <TextView
+                    android:id="@+id/t11"
+                    android:layout_column="1"
+                    android:text="  Chocolate"
+                    android:textSize="30dp"
+                    android:textStyle="italic"
+                    android:textAllCaps="true"
+                    android:textColor="#000"
+                    />
             </TableRow>
 
             <TableRow
@@ -131,19 +405,1190 @@
 
 
                 <Button
-                    android:id="@+id/b11"
-                    android:layout_width="100dp"
-                    android:layout_height="40dp"
+                    android:id="@+id/b69"
+                    android:layout_width="371dp"
+                    android:layout_height="match_parent"
                     android:layout_column="1"
-                    android:text="Pizza                      [120]" />
+                    android:layout_marginBottom="5dp"
+                    android:background="@color/c8"
+                    android:text="Chocolate    [40]" />
+
+
+            </TableRow>
+
+
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center">
 
                 <Button
-                    android:id="@+id/b12"
-                    android:layout_width="100dp"
-                    android:layout_height="40dp"
-                    android:layout_column="2"
-                    android:text="Rice                         [15]" />
+                    android:id="@+id/b70"
+                    android:layout_width="371dp"
+                    android:layout_height="match_parent"
+                    android:layout_column="1"
+                    android:layout_marginBottom="5dp"
+                    android:background="@color/c8"
+                    android:text="Chocolate with Crush            [50]" />
             </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center">
+
+                <Button
+                    android:id="@+id/b71"
+                    android:layout_width="181dp"
+                    android:layout_height="match_parent"
+                    android:layout_column="1"
+                    android:layout_marginBottom="5dp"
+                    android:background="@color/c8"
+                    android:text="Chocolate with Thunder          [60]" />
+
+            </TableRow>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center">
+                <TextView
+                    android:id="@+id/t12"
+                    android:layout_column="1"
+                    android:text="  Chocolate Creams"
+                    android:textSize="30dp"
+                    android:textStyle="italic"
+                    android:textAllCaps="true"
+                    android:textColor="#000"
+                    />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center">
+
+
+                <Button
+                    android:id="@+id/b72"
+                    android:layout_width="371dp"
+                    android:layout_height="match_parent"
+                    android:layout_column="1"
+                    android:layout_marginBottom="5dp"
+                    android:background="@color/c7"
+                    android:text="Choco Cream (M)    [50]" />
+
+
+            </TableRow>
+
+
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center">
+
+                <Button
+                    android:id="@+id/b73"
+                    android:layout_width="371dp"
+                    android:layout_height="match_parent"
+                    android:layout_column="1"
+                    android:layout_marginBottom="5dp"
+                    android:background="@color/c7"
+                    android:text="Choco Cream (B)            [70]" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center">
+
+                <Button
+                    android:id="@+id/b74"
+                    android:layout_width="181dp"
+                    android:layout_height="match_parent"
+                    android:layout_column="1"
+                    android:layout_marginBottom="5dp"
+                    android:background="@color/c7"
+                    android:text="White Choco Cream (M)          [60]" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center">
+
+
+                <Button
+                    android:id="@+id/b75"
+                    android:layout_width="371dp"
+                    android:layout_height="match_parent"
+                    android:layout_column="1"
+                    android:layout_marginBottom="5dp"
+                    android:background="@color/c7"
+                    android:text="White Choco Cream (B)    [80]" />
+
+
+            </TableRow>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center">
+                <TextView
+                    android:id="@+id/t13"
+                    android:layout_column="1"
+                    android:text="  Fresh Cream Shakes"
+                    android:textSize="30dp"
+                    android:textStyle="italic"
+                    android:textAllCaps="true"
+                    android:textColor="#000"
+                    />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center">
+
+
+                <Button
+                    android:id="@+id/b77"
+                    android:layout_width="371dp"
+                    android:layout_height="match_parent"
+                    android:layout_column="1"
+                    android:background="@color/c1"
+                    android:text="Mango Shake  [50]"
+                    android:layout_marginBottom="5dp"
+                    />
+
+
+            </TableRow>
+
+
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center">
+
+                <Button
+                    android:id="@+id/b78"
+                    android:layout_width="371dp"
+                    android:layout_height="match_parent"
+                    android:layout_column="1"
+                    android:background="@color/c1"
+                    android:text="Strawberry Shake        [50]"
+                    android:layout_marginBottom="5dp"
+                    />
+            </TableRow>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center">
+                <TextView
+                    android:id="@+id/t3"
+                    android:layout_column="1"
+                    android:layout_marginBottom="5dp"
+                    android:text="  French Fries"
+                    android:textSize="30dp"
+                    android:textStyle="italic"
+                    android:textAllCaps="true"
+                    android:textColor="#000"/>
+            </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/b20"
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:layout_column="1"
+                android:layout_marginBottom="5dp"
+                android:background="@color/c3"
+                android:text="French Fries                    [40]" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/b21"
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:layout_column="1"
+                android:layout_marginBottom="5dp"
+                android:background="@color/c3"
+                android:text="Masala French Fries             [50]" />
+        </TableRow>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/b22"
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:layout_column="1"
+                android:layout_marginBottom="5dp"
+                android:background="@color/c3"
+                android:text="Cheese Ball                     [50]" />
+        </TableRow>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/b23"
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:layout_column="1"
+                android:layout_marginBottom="5dp"
+                android:background="@color/c3"
+                android:text="Nuggets                         [60]" />
+        </TableRow>
+
+
+
+
+
+
+
+        <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center">
+                <TextView
+                    android:id="@+id/t4"
+                    android:layout_column="1"
+                    android:layout_marginBottom="5dp"
+                    android:text="  Hot Coffee"
+                    android:textSize="30dp"
+                    android:textStyle="italic"
+                    android:textAllCaps="true"
+                    android:textColor="#000"/>
+            </TableRow>
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center">
+
+                    <Button
+                        android:id="@+id/b24"
+                        android:layout_width="100dp"
+                        android:layout_height="match_parent"
+                        android:layout_column="1"
+                        android:layout_marginBottom="5dp"
+                        android:background="@color/c4"
+                        android:text="Hot Coffee              [30]" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center">
+
+                    <Button
+                        android:id="@+id/b25"
+                        android:layout_width="100dp"
+                        android:layout_height="match_parent"
+                        android:layout_column="1"
+                        android:layout_marginBottom="5dp"
+                        android:background="@color/c4"
+                        android:text="Black Coffee            [40]" />
+                </TableRow>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center">
+                <TextView
+                    android:id="@+id/t5"
+                    android:layout_column="1"
+                    android:layout_marginBottom="5dp"
+                    android:text="  Maggi"
+                    android:textSize="30dp"
+                    android:textStyle="italic"
+                    android:textAllCaps="true"
+                    android:textColor="#000"/>
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center">
+
+                <Button
+                    android:id="@+id/b26"
+                    android:layout_width="100dp"
+                    android:layout_marginBottom="5dp"
+                    android:layout_height="match_parent"
+                    android:layout_column="1"
+                    android:background="@color/c5"
+                    android:text="Veg Maggi                   [60]" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center">
+
+                <Button
+                    android:id="@+id/b27"
+                    android:layout_width="100dp"
+                    android:layout_height="match_parent"
+                    android:layout_column="1"
+                    android:layout_marginBottom="5dp"
+                    android:background="@color/c5"
+                    android:text="Masala Cheese Maggi         [60]" />
+            </TableRow>
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center">
+
+                <Button
+                    android:id="@+id/b28"
+                    android:layout_width="100dp"
+                    android:layout_height="match_parent"
+                    android:layout_column="1"
+                    android:background="@color/c5"
+                    android:layout_marginBottom="5dp"
+                    android:text="Plain Maggi                 [35]" />
+            </TableRow>
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center">
+
+                <Button
+                    android:id="@+id/b29"
+                    android:layout_width="100dp"
+                    android:layout_height="match_parent"
+                    android:layout_column="1"
+                    android:background="@color/c5"
+                    android:layout_marginBottom="5dp"
+                    android:text="Cheese Maggi                [50]" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center">
+
+                <Button
+                    android:id="@+id/b30"
+                    android:layout_width="100dp"
+                    android:layout_marginBottom="5dp"
+                    android:layout_height="match_parent"
+                    android:layout_column="1"
+                    android:background="@color/c5"
+                    android:text="Mexican Masala Maggi        [35]" />
+            </TableRow>
+
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center">
+
+                <Button
+                    android:id="@+id/b62"
+                    android:layout_width="100dp"
+                    android:layout_marginBottom="5dp"
+                    android:layout_height="match_parent"
+                    android:layout_column="1"
+                    android:background="@color/c5"
+                    android:text="Pasta        [65]" />
+            </TableRow>
+
+
+
+
+
+
+
+
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center">
+                <TextView
+                    android:id="@+id/t10"
+                    android:layout_column="1"
+                    android:text="  Mastani"
+                    android:textSize="30dp"
+                    android:textStyle="italic"
+                    android:layout_marginBottom="5dp"
+                    android:textAllCaps="true"
+                    android:textColor="#000"
+                    />
+            </TableRow>
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center">
+
+                <Button
+                    android:id="@+id/b65"
+                    android:layout_width="100dp"
+                    android:layout_marginBottom="5dp"
+                    android:layout_height="match_parent"
+                    android:layout_column="1"
+                    android:background="@color/c8"
+                    android:text="Mango Mastani        [70]" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center">
+
+                <Button
+                    android:id="@+id/b66"
+                    android:layout_marginBottom="5dp"
+                    android:layout_width="100dp"
+                    android:layout_height="match_parent"
+                    android:layout_column="1"
+                    android:background="@color/c8"
+                    android:text="Strawberry Mastani      [70]" />
+
+            </TableRow>
+
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center">
+
+                <Button
+                    android:id="@+id/b67"
+                    android:layout_width="100dp"
+                    android:layout_marginBottom="5dp"
+                    android:layout_height="match_parent"
+                    android:layout_column="1"
+                    android:background="@color/c8"
+                    android:text="DryFruit Mastani           [70]" />
+            </TableRow>
+
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center">
+
+                <Button
+                    android:id="@+id/b68"
+                    android:layout_width="100dp"
+                    android:layout_marginBottom="5dp"
+                    android:layout_height="match_parent"
+                    android:layout_column="1"
+                    android:background="@color/c8"
+                    android:text="ButterScotch Mastani   [70]" />
+            </TableRow>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center">
+                <TextView
+                    android:id="@+id/t6"
+                    android:layout_column="1"
+                    android:text="  Pizza"
+                    android:layout_marginBottom="5dp"
+                    android:textSize="30dp"
+                    android:textStyle="italic"
+                    android:textAllCaps="true"
+                    android:textColor="#000"
+                    />
+            </TableRow>
+
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center">
+
+                <Button
+                    android:id="@+id/b31"
+                    android:layout_width="100dp"
+                    android:layout_height="match_parent"
+                    android:layout_column="1"
+                    android:layout_marginBottom="5dp"
+                    android:background="@color/c6"
+                    android:text="Moonlight Sp.Pizza          [150]" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center">
+
+                <Button
+                    android:id="@+id/b32"
+                    android:layout_width="100dp"
+                    android:layout_height="match_parent"
+                    android:layout_column="1"
+                    android:layout_marginBottom="5dp"
+                    android:background="@color/c6"
+                    android:text="Veg Cheese Pizza            [99]" />
+
+            </TableRow>
+
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center">
+
+                <Button
+                    android:id="@+id/b33"
+                    android:layout_width="100dp"
+                    android:layout_height="match_parent"
+                    android:layout_column="1"
+                    android:layout_marginBottom="5dp"
+                    android:background="@color/c6"
+                    android:text="Veg Paneer Cheese Pizza     [120]" />
+            </TableRow>
+
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center">
+
+                <Button
+                    android:id="@+id/b34"
+                    android:layout_width="100dp"
+                    android:layout_height="match_parent"
+                    android:layout_column="1"
+                    android:layout_marginBottom="5dp"
+                    android:background="@color/c6"
+                    android:text="Mushroom Cheese Pizza       [120]" />
+            </TableRow>
+
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center">
+
+                <Button
+                    android:id="@+id/b35"
+                    android:layout_width="100dp"
+                    android:layout_height="match_parent"
+                    android:layout_column="1"
+                    android:layout_marginBottom="5dp"
+                    android:background="@color/c6"
+                    android:text="Sweet Corn Cheese Pizza     [120]" />
+            </TableRow>
+
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center">
+
+
+                <Button
+                    android:id="@+id/b36"
+                    android:layout_width="100dp"
+                    android:layout_height="match_parent"
+                    android:layout_column="1"
+                    android:layout_marginBottom="5dp"
+                    android:background="@color/c6"
+                    android:text="Chocolate Cheese Pizza      [99]" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center">
+
+                <Button
+                    android:id="@+id/b37"
+                    android:layout_width="100dp"
+                    android:layout_height="match_parent"
+                    android:layout_column="1"
+                    android:layout_marginBottom="5dp"
+                    android:background="@color/c6"
+                    android:text="Capsicum Cheese Pizza       [99]" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center">
+
+                <Button
+                    android:id="@+id/b38"
+                    android:layout_width="100dp"
+                    android:layout_height="match_parent"
+                    android:layout_column="1"
+                    android:layout_marginBottom="5dp"
+                    android:background="@color/c6"
+                    android:text="Sweet Corn Pizza            [99]" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center">
+
+                <Button
+                    android:id="@+id/b39"
+                    android:layout_width="100dp"
+                    android:layout_height="match_parent"
+                    android:layout_column="1"
+                    android:layout_marginBottom="5dp"
+                    android:background="@color/c6"
+                    android:text="Chocolate Pizza             [80]" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center">
+
+                <Button
+                    android:id="@+id/b40"
+                    android:layout_width="100dp"
+                    android:layout_height="match_parent"
+                    android:layout_column="1"
+                    android:layout_marginBottom="5dp"
+                    android:background="@color/c6"
+                    android:text="Veg Pizza                   [70]" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center">
+
+                <Button
+                    android:id="@+id/b41"
+                    android:layout_width="100dp"
+                    android:layout_height="match_parent"
+                    android:layout_column="1"
+                    android:layout_marginBottom="5dp"
+                    android:background="@color/c6"
+                    android:text="Plain Cheese Pizza           [80]" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center">
+
+                <Button
+                    android:id="@+id/b42"
+                    android:layout_width="100dp"
+                    android:layout_height="match_parent"
+                    android:layout_column="1"
+                    android:layout_marginBottom="5dp"
+                    android:background="@color/c6"
+                    android:text="Veg Jain Pizza              [70]" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center">
+
+                <Button
+                    android:id="@+id/b43"
+                    android:layout_width="100dp"
+                    android:layout_height="match_parent"
+                    android:layout_column="1"
+                    android:layout_marginBottom="5dp"
+                    android:background="@color/c6"
+                    android:text="Onion Pizza                 [80]" />
+            </TableRow>
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center">
+
+                <Button
+                    android:id="@+id/b44"
+                    android:layout_width="100dp"
+                    android:layout_height="match_parent"
+                    android:layout_column="1"
+                    android:layout_marginBottom="5dp"
+                    android:background="@color/c6"
+                    android:text="Capsicum Pizza              [80]" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center">
+
+                <Button
+                    android:id="@+id/b61"
+                    android:layout_width="100dp"
+                    android:layout_height="match_parent"
+                    android:layout_column="1"
+                    android:layout_marginBottom="5dp"
+                    android:background="@color/c6"
+                    android:text="Double Decker Cheese Pizza              [125]" />
+            </TableRow>
+
+
+
+
+
+
+
+
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center">
+                <TextView
+                    android:id="@+id/t7"
+                    android:layout_column="1"
+                    android:layout_marginBottom="5dp"
+                    android:text="  Sandwiches"
+                    android:textSize="30dp"
+                    android:textStyle="italic"
+                    android:textAllCaps="true"
+                    android:textColor="#000"
+                    />
+            </TableRow>
+
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center">
+
+                <Button
+                    android:id="@+id/b45"
+                    android:layout_width="100dp"
+                    android:layout_height="match_parent"
+                    android:layout_column="1"
+                    android:layout_marginBottom="5dp"
+                    android:background="@color/c7"
+                    android:text="Mushrom Cheese Sandwich     [80]" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center">
+
+                <Button
+                    android:id="@+id/b46"
+                    android:layout_width="100dp"
+                    android:layout_height="match_parent"
+                    android:layout_column="1"
+                    android:layout_marginBottom="5dp"
+                    android:background="@color/c7"
+                    android:text="Veg Mushroom Sandwich       [70]" />
+
+            </TableRow>
+
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center">
+
+                <Button
+                    android:id="@+id/b47"
+                    android:layout_width="100dp"
+                    android:layout_height="match_parent"
+                    android:layout_column="1"
+                    android:layout_marginBottom="5dp"
+                    android:background="@color/c7"
+                    android:text="Cutlet Cheese Sandwich      [70]" />
+            </TableRow>
+
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center">
+
+                <Button
+                    android:id="@+id/b48"
+                    android:layout_width="100dp"
+                    android:layout_height="match_parent"
+                    android:layout_column="1"
+                    android:layout_marginBottom="5dp"
+                    android:background="@color/c7"
+                    android:text="Paneer Cheese Sandwich      [70]" />
+            </TableRow>
+
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center">
+
+                <Button
+                    android:id="@+id/b49"
+                    android:layout_width="100dp"
+                    android:layout_height="match_parent"
+                    android:layout_column="1"
+                    android:layout_marginBottom="5dp"
+                    android:background="@color/c7"
+                    android:text="Chocolate Cheese Sandwich   [60]" />
+            </TableRow>
+
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center">
+
+
+                <Button
+                    android:id="@+id/b50"
+                    android:layout_width="100dp"
+                    android:layout_height="match_parent"
+                    android:layout_column="1"
+                    android:layout_marginBottom="5dp"
+                    android:background="@color/c7"
+                    android:text="Veg Cheese Sandwich         [60]" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center">
+
+                <Button
+                    android:id="@+id/b51"
+                    android:layout_width="100dp"
+                    android:layout_height="match_parent"
+                    android:layout_column="1"
+                    android:layout_marginBottom="5dp"
+                    android:background="@color/c7"
+                    android:text="Veg Paneer Sandwich         [60]" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center">
+
+                <Button
+                    android:id="@+id/b52"
+                    android:layout_width="100dp"
+                    android:layout_height="match_parent"
+                    android:layout_column="1"
+                    android:layout_marginBottom="5dp"
+                    android:background="@color/c7"
+                    android:text="Alu Butter Cheese Sandwich  [60]" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center">
+
+                <Button
+                    android:id="@+id/b53"
+                    android:layout_width="100dp"
+                    android:layout_height="match_parent"
+                    android:layout_column="1"
+                    android:layout_marginBottom="5dp"
+                    android:background="@color/c7"
+                    android:text="Veg Sandwich                [40]" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center">
+
+                <Button
+                    android:id="@+id/b54"
+                    android:layout_width="100dp"
+                    android:layout_height="match_parent"
+                    android:layout_column="1"
+                    android:layout_marginBottom="5dp"
+                    android:background="@color/c7"
+                    android:text="Chocolate Sandwich          [50]" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center">
+
+                <Button
+                    android:id="@+id/b55"
+                    android:layout_width="100dp"
+                    android:layout_height="match_parent"
+                    android:layout_column="1"
+                    android:layout_marginBottom="5dp"
+                    android:background="@color/c7"
+                    android:text="Plain Jam Sandwich           [50]" />
+            </TableRow>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center">
+                <TextView
+                    android:id="@+id/t9"
+                    android:layout_column="1"
+                    android:layout_marginBottom="5dp"
+                    android:text="  Snacks"
+                    android:textSize="30dp"
+                    android:textStyle="italic"
+                    android:textAllCaps="true"
+                    android:textColor="#000"/>
+            </TableRow>
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center">
+
+                <Button
+                    android:id="@+id/b63"
+                    android:layout_width="100dp"
+                    android:layout_height="match_parent"
+                    android:layout_column="1"
+                    android:layout_marginBottom="5dp"
+                    android:background="@color/c4"
+                    android:text="Moonlight Sp. Rice            [15]" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center">
+
+                <Button
+                    android:id="@+id/b64"
+                    android:layout_width="100dp"
+                    android:layout_height="match_parent"
+                    android:layout_column="1"
+                    android:layout_marginBottom="5dp"
+                    android:background="@color/c4"
+                    android:text="Misal Pav           [40]" />
+            </TableRow>
+
+
+
+
+
+
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center">
+                <TextView
+                    android:id="@+id/t8"
+                    android:layout_column="1"
+                    android:text="  Combo Offers"
+                    android:textSize="30dp"
+                    android:textStyle="italic"
+                    android:layout_marginBottom="5dp"
+                    android:textAllCaps="true"
+                    android:textColor="#000"
+                    />
+            </TableRow>
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center">
+
+                <Button
+                    android:id="@+id/b57"
+                    android:layout_width="100dp"
+                    android:layout_marginBottom="5dp"
+                    android:layout_height="match_parent"
+                    android:layout_column="1"
+                    android:background="@color/c8"
+                    android:text="Burger+Sandwich+Pepsi        [65]" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center">
+
+                <Button
+                    android:id="@+id/b58"
+                    android:layout_marginBottom="5dp"
+                    android:layout_width="100dp"
+                    android:layout_height="match_parent"
+                    android:layout_column="1"
+                    android:background="@color/c8"
+                    android:text="Pizza+Burger+ColdCoffee      [130]" />
+
+            </TableRow>
+
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center">
+
+                <Button
+                    android:id="@+id/b59"
+                    android:layout_width="100dp"
+                    android:layout_marginBottom="5dp"
+                    android:layout_height="match_parent"
+                    android:layout_column="1"
+                    android:background="@color/c8"
+                    android:text="Pizza+Sandwich+Coldcoffee           [140]" />
+            </TableRow>
+
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center">
+
+                <Button
+                    android:id="@+id/b60"
+                    android:layout_width="100dp"
+                    android:layout_marginBottom="5dp"
+                    android:layout_height="match_parent"
+                    android:layout_column="1"
+                    android:background="@color/c8"
+                    android:text="Burger+Sandwich+ColdCoffee   [85]" />
+            </TableRow>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
         </TableLayout>
 
 
@@ -171,7 +1616,9 @@
                 android:layout_height="40dp"
                 android:layout_column="1"
                 android:gravity="center_horizontal|center"
-                android:text="Done" />
+                android:text="Done"
+                android:textStyle="bold"
+                android:background="#98889B"/>
         </TableRow>
     </TableLayout>
 
@@ -231,9 +1678,8 @@
         <ListView
             android:id="@+id/list3"
             android:layout_width="match_parent"
-            android:layout_height="430dp"
+            android:layout_height="291dp"
             android:divider="@drawable/divider"
-            android:dividerHeight="1dp"
-            ></ListView>
+            android:dividerHeight="1dp"></ListView>
     </LinearLayout>
 </RelativeLayout>

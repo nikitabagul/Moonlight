@@ -1,15 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
-<item
-    android:title="Help"
-android:icon="@drawable/ic_help_black_24dp"
-    android:id="@+id/h">
-</item>
+
 
     <item
-        android:title="Clear Complete Database"
+        android:title="Help"
+        android:icon="@drawable/ic_help_black_24dp"
+        android:id="@+id/s">
+    </item>
+
+    <item
+        android:title="Clear All"
         android:icon="@drawable/ic_clear_all_black_24dp"
         android:id="@+id/cva">
     </item>
+
+    <item
+        android:title="Created by"
+        android:icon="@drawable/ic_help_black_24dp"
+        android:id="@+id/c">
+    </item>
+
 
 </menu>
